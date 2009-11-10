@@ -16,7 +16,6 @@ speakerratebadge = function(){
   var badge = document.getElementById(config.badgeID);
   var link = document.getElementById(config.linkID);
   function init(o){
-    console.log(o);
     if(o && o.headerText){
       config.headerText = o.headerText;
     }
