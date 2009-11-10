@@ -16,14 +16,14 @@ speakerratebadge = function(){
   var badge = document.getElementById(config.badgeID);
   var link = document.getElementById(config.linkID);
   function init(o){
+    console.log(o);
     if(o && o.headerText){
       config.headerText = o.headerText;
     }
     if(o && o.amount){
       config.amount = o.amount;
     }
-    if(o && o.styled){
-      console.log(o);
+    if(o && typeof o.styled != undefined){
       config.styled = o.styled;
     }
     if(badge && link){

@@ -1,0 +1,35 @@
+Add a badge to your web site showing off the latest comments you received at speakerrate.com.
+
+As requested in my tweet http://twitter.com/codepo8/statuses/5395099509 speakerrate acted very quickly and build an API for latest comments: http://twitter.com/speakerrate/statuses/5566609660 and here is my thank you.
+
+Usage: 
+
+Simply add a DIV with a link to your speaker page on speakerrate:
+
+<div id="speakerratebadge">
+  <a href="http://speakerrate.com/speakers/3543-christian-heilmann" id="speakerratelink">Rate me on Speakerrate</a>
+</div>
+
+Then add the script and call the init() method:
+
+<script type="text/javascript" src="http://github.com/codepo8/speakerrate-badge/raw/master/speakerratebadge.js"></script>
+<script type="text/javascript">
+speakerratebadge.init();
+</script>
+
+You can also provide a few options to the init() method to change the look and features of the badge:
+
+<script type="text/javascript" src="http://github.com/codepo8/speakerrate-badge/raw/master/speakerratebadge.js"></script>
+<script type="text/javascript">
+speakerratebadge.init(
+  {
+    amount:3, /* amount of comments */
+    styled:true, /* Boolean if the style here should be pulled and applied */
+    headerText:'Comments:' /* Text of the header above the comments */
+  }
+);
+</script>
+
+If you need different styles, just use styled:false or override the ones applied.
+
+Enjoy, Chris
