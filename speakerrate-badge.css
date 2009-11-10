@@ -1,0 +1,8 @@
+#speakerratebadge{font-size:12px;font-family:helvetica,arial,sans-serif;border:1px solid #999;width:400px;padding:5px;background:#eee}
+  #speakerratebadge *{margin:0;padding:0;list-style:none;}
+  #speakerratebadge span{display:block;text-align:right;font-size:10px;padding-top:5px;}
+  #speakerratebadge li{margin-bottom:.5em;}
+  #speakerratebadge h4{margin:1em 0;font-size:13px;}
+  #speakerratebadge a {font-weight:bold;font-size:15px;color:#369;text-decoration:none;}
+  #speakerratebadge span a{font-size:10px;font-weight:normal;}
+  #speakerratebadge {width:400px;}
