@@ -23,6 +23,7 @@ speakerratebadge = function(){
       config.amount = o.amount;
     }
     if(o && o.styled){
+      console.log(o);
       config.styled = o.styled;
     }
     if(badge && link){
